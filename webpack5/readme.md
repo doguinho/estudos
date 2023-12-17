@@ -10,6 +10,12 @@ Com a flag nxp webpack --watch temos o auto-refresh do javascript a princípio.
 
 É possível adicionar vários arquivos javascript ao main.js. Basta um array no ```entry :[]``` do webpack.config.js
 
+**Build**
+
+Script que configura a flag do node para produção.
+
+```"build:pc": "set NODE_ENV=production&&webpack"```
+
 **Typescript**
 
 É necessário configurar um módulo para interpretar arquivos typescript.
